@@ -1,13 +1,13 @@
 {
-  "name": "greeflas/default-project",
-  "description": "This is a default structure for PHP projects.",
-  "keywords": ["project", "template", "structure", "skeleton", "phpunit"],
-  "type": "project",
+  "name": "bovsunovsky/sort-library",
+  "description": "This is a sort-library study PHP projects.",
+  "keywords": ["library"],
+  "type": "library",
   "license": "BSD-3-Clause",
   "authors": [
     {
-      "name": "Vladimir Kuprienko",
-      "email": "vldmr.kuprienko@gmail.com",
+      "name": "bovsunovsky",
+      "email": "bovsunovsky@rambler.ru",
       "role": "Maintainer"
     }
   ],
@@ -21,12 +21,12 @@
   },
   "autoload": {
     "psr-4": {
-      "App\\": "src/"
+      "BOA\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "App\\Test\\": "tests/"
+      "BOA\\Test\\": "tests/"
     }
   },
   "scripts": {
