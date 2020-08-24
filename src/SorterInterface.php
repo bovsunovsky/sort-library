@@ -1,8 +1,10 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace BOA;
 
-interface SortInterface
+interface SorterInterface
 {
     /**
      * It is an interface for classes that implement sorting mechanisms.

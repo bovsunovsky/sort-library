@@ -1,12 +1,13 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace BOA;
 
-class SortAsc implements SortInterface
+class SortAsc implements SorterInterface
 {
     /**
      * This is an implementation of the ascending sort mechanism
-     * @author Alexandr Bovsunovsky <bovsunovsky@rambler.ru>
      */
     public function sort(array $data): array
     {

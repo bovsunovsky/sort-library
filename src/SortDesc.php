@@ -1,19 +1,13 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: budonnyi
- * Date: 23.08.20
- * Time: 14:29
- */
+
+declare(strict_types = 1);
 
 namespace BOA;
 
-class SortDesc implements SortInterface
+class SortDesc implements SorterInterface
 {
     /**
      * This is an implementation of a descending sorting mechanism.
-     *
-     * @author Alexandr Bovsunovsky <bovsunovsky@rambler.ru>
      */
     public function sort(array $data): array
     {

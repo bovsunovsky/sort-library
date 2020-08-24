@@ -1,6 +1,6 @@
 <?php
 
-$header = <<<HEADER
+<<<HEADER
 This file is part of the "sort-library" package.
 
 (c) bovsunovsky <bovsunovsky@rambler.ru>
@@ -13,10 +13,6 @@ $finder = \PhpCsFixer\Finder::create()
     ->in([
         'src',
         'tests',
-    ])
-    ->name([
-        '*.php',
-        'console',
     ])
 ;
 
