@@ -3,11 +3,11 @@ This is a study sort-library based on Default Project
 Installation
 Either run
 
-composer require bovsunovsky/sort-library
+`composer require bovsunovsky/sort-library`
 
 or add
 
-"bovsunovsky/sort-library": "~1.0"
+`"bovsunovsky/sort-library": "~1.0"`
 
 to the require section of your composer.json.
 
@@ -21,16 +21,16 @@ Usage
  Example
  _______
  
- $sorter = new Sorter(new SortDesc());
+ `$sorter = new Sorter(new SortDesc());`
  
- var_dump($sorter->sort($testString)) ;
+ `var_dump($sorter->sort($testString)) ;`
 
 
 
 Tests
 -----
 
-Run with console :" ./tests/test" or "php tests/test"
+Run with console : `" ./tests/test" or "php tests/test"`
 
 License
 -------
